@@ -1,0 +1,56 @@
+.control {
+	display: flex;
+  height: 50px;
+  background-color: rgb(247, 247, 247);
+  width: 100%;
+  margin: 0;
+	box-shadow: 0 1px 2px hsla(0,0%,0%,0.05), 0 1px 4px hsla(0, 0%, 0%, 0.05), 0 2px 8px hsla(0, 0%, 0%, 0.05);
+}
+
+.control__header {
+	margin-left: 10px;
+  font-size: 18px;
+  font-weight: 400;
+	margin-right: 2rem;
+}
+
+.control__switch-group {
+  display: flex;
+  justify-content: center;
+}
+
+.control-button__on {
+  margin-left: 1rem;
+  background-color: tomato;
+  border: 1px solid tomato;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.control-button__on:hover {
+  animation: animate 8s linear infinite;
+  cursor: pointer;
+  color: white;
+  background-color: rgb(129, 7, 7);
+  border-color: rgb(129, 7, 7);
+  box-shadow: 0px 8px 8px rgb(207, 19, 19);
+}
+
+.control__input {
+  width: 100px;
+  align-items: center;
+  background-color: hsl(0, 0%, 100%);
+  border-color: hsl(0, 0%, 80%);
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
+  cursor: default;
+  padding-left: 10px;
+  margin-left: 1rem;
+}
+
+.control__input:focus-visible {
+  outline: none !important;
+  border: 2px solid #2684FF;
+  border-color: #2684FF;
+}
